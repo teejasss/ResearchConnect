@@ -1,0 +1,87 @@
+/* Container for the entire homepage */
+.container-custom {
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding around the container */
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  /* Hero Section Styles */
+  .hero-section {
+    background-image: url('../public/new.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    height: 500px; /* Adjust height for more impact */
+    display: flex; /* Flexbox for centering */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    position: relative; /* For overlay */
+    overflow: hidden; /* Hide overflow */
+  }
+  
+  /* Add a gradient overlay */
+  .hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1; /* Ensure it's behind the text */
+  }
+  
+  .hero-text {
+    position: relative; /* Position relative to allow stacking */
+    z-index: 2; /* Place above the overlay */
+    padding: 20px; /* Padding around text */
+  }
+  
+  .hero-title {
+    font-size: 3rem; /* Increased font size for the title */
+    font-weight: bold; /* Bold font weight */
+    margin: 0; /* Remove default margin */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better visibility */
+    color: white;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem; /* Increased font size for subtitle */
+    margin: 10px 0; /* Margin for spacing */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Text shadow */
+  }
+  
+  /* Call to Action Button Styles */
+  .cta-button {
+    background-color: #ff6f61; /* Button color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding inside button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.2rem; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    text-decoration: none; /* No underline */
+    transition: background-color 0.3s, transform 0.3s; /* Transition effects */
+  }
+  
+  .cta-button:hover {
+    background-color: #e55d4e; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  /* Card Styles */
+  .card-custom {
+    background: white; /* Card background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    margin: 20px 0; /* Margin between cards */
+  }
+  
+  .heading-custom {
+    color: #0e0e0e; /* Heading color */
+    margin-bottom: 15px; /* Space below heading */
+  }
+  

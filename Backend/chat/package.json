@@ -1,0 +1,14 @@
+{
+    "name": "chat",
+    "version": "2.0.0",
+    "main": "chatserver.js",
+    "scripts": {
+      "start": "nodemon chatserver.js",
+      "test": "echo \"No tests available\" && exit 1"
+    },
+    "keywords": ["chat", "server", "real-time"],
+    "author": "Anonymous",
+    "license": "MIT",
+    "description": "A real-time messaging server"
+  }
+  

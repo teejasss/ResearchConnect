@@ -1,0 +1,116 @@
+.chat-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .chat-window {
+    border: 1px solid #ddd;
+    padding: 20px;
+    height: 400px;
+    overflow-y: scroll;
+  }
+  
+  /*
+  .chat-message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 60%;
+  }
+  
+   .chat-message.current-user {
+    align-self: flex-end;
+    background-color: #1c9b1c; 
+    color: #000;
+  }
+  
+  .chat-message.receiver {
+    align-self: flex-start;
+    background-color: #1866ba;
+    color: #000;
+  } */
+  
+  .chat-message {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  
+  .chat-message.current-user {
+    align-self: flex-end; /* Align to the right for the current user */
+  }
+  
+  .chat-message.receiver {
+    align-self: flex-start; /* Align to the left for the receiver */
+  }
+  
+  .chat-bubble {
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    word-wrap: break-word;
+  }
+  
+  .chat-message.current-user .chat-bubble {
+    background-color: #28a745; /* Green for the current user */
+  }
+  
+  .chat-message.receiver .chat-bubble {
+    background-color: #007bff; /* Blue for the receiver */
+  }
+  
+  
+
+  .message-bubble {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .message-text {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
+  }
+  
+  .chat-empty {
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+  }
+  
+  .chat-input-form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .form-control-custom {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .btn-custom {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-custom:hover {
+    background-color: #0056b3;
+  }
+  

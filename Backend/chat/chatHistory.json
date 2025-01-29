@@ -1,0 +1,191 @@
+[
+  {
+    "senderId": 1,
+    "receiverId": 2,
+    "text": "Hi",
+    "sender": "Uday",
+    "receiver": "TEJ"
+  },
+  {
+    "senderId": null,
+    "receiverId": 1,
+    "text": "hi",
+    "sender": null,
+    "receiver": "Uday"
+  },
+  {
+    "senderId": null,
+    "receiverId": 1,
+    "text": "hi",
+    "sender": null,
+    "receiver": "Uday"
+  },
+  {
+    "senderId": null,
+    "receiverId": 1,
+    "text": "hi",
+    "sender": null,
+    "receiver": "Uday"
+  },
+  {
+    "senderId": null,
+    "receiverId": 1,
+    "text": "hi",
+    "sender": null,
+    "receiver": "Uday"
+  },
+  {
+    "senderId": null,
+    "receiverId": 2,
+    "text": "hi",
+    "sender": null,
+    "receiver": "TEJ"
+  },
+  {
+    "senderId": null,
+    "receiverId": 7,
+    "text": "hi",
+    "sender": null,
+    "receiver": "tejas"
+  },
+  {
+    "senderId": 1,
+    "receiverId": 7,
+    "text": "hi",
+    "sender": "Uday",
+    "receiver": "tejas"
+  },
+  {
+    "senderId": 1,
+    "receiverId": 6,
+    "text": "hi",
+    "sender": "Uday",
+    "receiver": "Sam"
+  },
+  {
+    "senderId": null,
+    "receiverId": 2,
+    "text": "hi",
+    "sender": null,
+    "receiver": "TEJ"
+  },
+  {
+    "senderId": null,
+    "receiverId": 1,
+    "text": "hi",
+    "sender": null,
+    "receiver": "Uday"
+  },
+  {
+    "senderId": null,
+    "receiverId": 6,
+    "text": "hi",
+    "sender": null,
+    "receiver": "Sam"
+  },
+  {
+    "senderId": null,
+    "receiverId": 7,
+    "text": "hi",
+    "sender": null,
+    "receiver": "tejas"
+  },
+  {
+    "senderId": 1,
+    "receiverId": 2,
+    "text": "hi",
+    "sender": "Uday",
+    "receiver": "TEJ"
+  },
+  {
+    "senderId": 2,
+    "receiverId": 1,
+    "text": "hi",
+    "sender": "TEJ",
+    "receiver": "Uday"
+  },
+  {
+    "senderId": 1,
+    "receiverId": 2,
+    "text": "hi",
+    "sender": "Uday",
+    "receiver": "TEJ"
+  },
+  {
+    "senderId": null,
+    "receiverId": 1,
+    "text": "hi",
+    "sender": null,
+    "receiver": "Uday"
+  },
+  {
+    "senderId": null,
+    "receiverId": 2,
+    "text": "hi",
+    "sender": null,
+    "receiver": "TEJ"
+  },
+  {
+    "senderId": 2,
+    "receiverId": 1,
+    "text": "hi",
+    "sender": "TEJ",
+    "receiver": "Uday"
+  },
+  {
+    "senderId": 1,
+    "receiverId": 2,
+    "text": "hi",
+    "sender": "Uday",
+    "receiver": "TEJ"
+  },
+  {
+    "senderId": 1,
+    "receiverId": 2,
+    "text": "G",
+    "sender": "Uday",
+    "receiver": "TEJ"
+  },
+  {
+    "senderId": 2,
+    "receiverId": 1,
+    "text": "R",
+    "sender": "TEJ",
+    "receiver": "Uday"
+  },
+  {
+    "senderId": 1,
+    "receiverId": 2,
+    "text": "5",
+    "sender": "Uday",
+    "receiver": "TEJ"
+  },
+  {
+    "senderId": 2,
+    "receiverId": 1,
+    "text": "g",
+    "sender": "TEJ",
+    "receiver": "Uday"
+  },
+  {
+    "senderId": 1,
+    "receiverId": 2,
+    "text": "1",
+    "sender": "Uday",
+    "receiver": "TEJ"
+  },
+  {
+    "senderId": 2,
+    "receiverId": 1,
+    "text": "Hi good evening",
+    "sender": "TEJ",
+    "receiver": "Uday"
+  },
+  {
+    "senderId": 1,
+    "receiverId": 2,
+    "text": "Hello",
+    "sender": "Uday",
+    "receiver": "TEJ"
+  }
+]

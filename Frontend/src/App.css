@@ -1,0 +1,109 @@
+/* Tejas Dilip Chougale – 1002153780
+Uday Kiran Reddy Bommu - 1002159288
+Tharun tej Chintala – 1002159209
+Geetha Challa – 1002176718
+Yukta Chimpidi – 1002196798 */
+.profile-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.profile-form {
+  margin-bottom: 20px;
+}
+
+.profile-form div {
+  margin-bottom: 10px;
+}
+
+.profile-form label {
+  display: block;
+  font-weight: bold;
+}
+
+.profile-form input, .profile-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.research-interests, .connect-researchers {
+  margin-top: 20px;
+}
+
+.connect-researchers input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.help-support-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.help-support-page h2 {
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.faq-section, .guides-section, .contact-form-section {
+  margin-bottom: 20px;
+}
+
+.contact-form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form-section form input,
+.contact-form-section form textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form-section form button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.help-support-page h2
+{
+  text-decoration: none;
+  margin-top: 25px;
+}
+
